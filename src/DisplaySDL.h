@@ -3,7 +3,7 @@
 #define SDLDISPLAY_HEADER
 
 #include "Chip8.h"
-#include "SDL2/SDL.h"
+#include <SDL2/SDL.h>
 
 struct DisplaySDL {
 
