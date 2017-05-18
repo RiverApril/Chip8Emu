@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
 
 	const char* gameToLoad = "games/PONG";
 	bool debug = false;
-	int smooth = 0xFF;
+	int smooth = 0x0;
 
 	if (argc >= 2){
 		gameToLoad = argv[1];
